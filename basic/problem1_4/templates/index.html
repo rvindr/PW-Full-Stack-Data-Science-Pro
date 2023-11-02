@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Home Page</title>
+    
+    <style>
+        body {
+            background-image: url('https://images.pexels.com/photos/1037992/pexels-photo-1037992.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Website</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/contact">Contact</a></li>
+            <li><a href="/services">services</a></li>
+
+
+        </ul>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Welcome to Our Home Page</h2>
+            <p>This is the home page of our website. Feel free to explore our services and learn more about us.</p>
+        </section>
+
+        <form action='/showdetails' method='post'>
+            <label for='name'>Name : </label>
+            <input type='text' id='name' name='name'>
+            <label for='roll'>Roll No. : </label>
+            <input type='text' id='roll' name='roll'>
+            <input type='submit' value="Submit">
+        </form>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Your Company Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>
